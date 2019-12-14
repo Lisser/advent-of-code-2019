@@ -15,10 +15,10 @@ const totalMassToFuel = (mass) => {
 }
 
 const test4 = totalMassToFuel(1969)
-test4
 
 /* Fuel required for modules */
 const fuelRequiredModules = moduleWeights
   .map(totalMassToFuel)
   .reduce((a, b) => a + b, 0);
-fuelRequiredModules
+
+console.log(fuelRequiredModules);
