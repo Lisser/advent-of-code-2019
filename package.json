@@ -1,0 +1,19 @@
+{
+  "name": "advent_of_code",
+  "version": "1.0.0",
+  "description": "My Advent of Code 2019 code :)",
+  "main": "1-fuel.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lisser/advent-of-code-2019.git"
+  },
+  "author": "Jesse Lisser",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lisser/advent-of-code-2019/issues"
+  },
+  "homepage": "https://github.com/Lisser/advent-of-code-2019#readme"
+}

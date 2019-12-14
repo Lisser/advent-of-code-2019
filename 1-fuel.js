@@ -1,4 +1,4 @@
-import fs from 'fs';
+const fs = require('fs');
 
 const buffer = fs.readFileSync('./1_input.txt');
 const moduleWeights = buffer.toString().trim().split('\r\n').map(Number);
